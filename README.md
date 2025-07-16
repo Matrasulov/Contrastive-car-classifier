@@ -2,6 +2,14 @@
 
 This project implements a car brand classification system using a **contrastive learning** setup with triplet inputs (anchor, positive, negative) and a **fine-tuned ReXNet150** model. The workflow includes data visualization, model training, performance monitoring, Grad-CAM++ for interpretability, and a confusion matrix to evaluate predictions.
 
+## 📊 Final Model Performance
+*  🎯 Validation Accuracy        : 0.954    
+*  🏅 Validation F1-Score        : 0.955   
+*  📈 Validation Sensitivity     : 0.955   
+*  📊 Validation Specificity     : 0.997   
+*  📉 Final Validation Loss      : 0.446   
+*  📍 Epochs Trained             : 21   
+*  🧪 Test Accuracy              : 0.957  
 ---
 ```
 kaggle datasets download mohamedaziz15/cars-brands-in-egypt
